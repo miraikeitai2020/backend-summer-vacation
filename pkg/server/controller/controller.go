@@ -55,7 +55,7 @@ func (ctrl *Controller)Task1(context *gin.Context) {
 // 
 // リクエスト => 
 // {
-//   "yaer": Int,
+//   "year": Int,
 //   "month": Int,
 //   "day": Int,
 // }
@@ -93,7 +93,7 @@ func (ctrl *Controller)SignUp(context *gin.Context) {
 // リクエスト => 
 // {
 //   "id": string,
-//   "password": string,
+//   "password": string
 // }
 // レスポンス => 
 // {
