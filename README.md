@@ -1,10 +1,16 @@
 # backend-summer-vacation
 バックエンドの夏休み間に使う練習リポジトリ
 ## 実行方法
+**makeを使用する場合**
 - ローカル実行コマンド：`make`
 - コンテナイメージビルドコマンド：`make docker-build`
 - コンテナ実行コマンド：`make docker-run`
 - コンテナ削除コマンド：`make docker-clean`
+
+**makeを使用しない場合**
+- ローカル実行コマンド：`go run pkg/server/server.go`
+- コンテナイメージビルドコマンド：`docker build ./ -t miraikeitai2020/summer:1.0.0`
+- コンテナ実行コマンド：`docker run -d -p 8080:8080 --name summer miraikeitai2020/summer:1.0.0`
 
 ## 課題内容
 ### チュートリアル
@@ -44,8 +50,8 @@ HTTPメソッド： GET
   }
 }
 ```
-例: date → 2020-09-02
-例: time → 00:00:00
+例: date → 2020-09-02  
+例: time → 00:00:00  
 ### 課題2
 ツェラーの公式でリクエストで投げた日付の曜日を返す  
 **リクエスト**  
