@@ -67,6 +67,7 @@ func (ctrl *Controller) Task1(context *gin.Context) {
 //   "week": string //例： Monday
 // }
 func (ctrl *Controller) Task2(context *gin.Context) {
+	context.JSON(200, zeller.Now())
 }
 
 // 課題3
