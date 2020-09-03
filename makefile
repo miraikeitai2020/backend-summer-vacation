@@ -14,3 +14,8 @@ docker-clean:
 	$(DOCKER) stop summer
 	$(DOCKER) rm summer
 	$(DOCKER) rmi miraikeitai2020/summer:1.0.0
+service-build:
+	docker-compose build
+	docker-compose run -d
+service-clean:
+	docker-compose stop
