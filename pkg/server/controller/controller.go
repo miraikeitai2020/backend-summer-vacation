@@ -9,10 +9,12 @@ import(
 	// import sample API packages
 	"github.com/miraikeitai2020/backend-summer-vacation/pkg/server/model"
 	"github.com/miraikeitai2020/backend-summer-vacation/pkg/stamp"
+	"github.com/miraikeitai2020/backend-summer-vacation/pkg/zeller"
 )
 
 var(
-	user model.User
+	user		model.User
+	calcArgs	model.ZellerElements
 )
 
 type Controller struct {
@@ -66,6 +68,15 @@ func (ctrl *Controller)Task1(context *gin.Context) {
 //   "week": string //例： Monday
 // }
 func (ctrl *Controller)Task2(context *gin.Context) {
+	err := context.BindJSON(&calcArgs)
+	if err != nil {
+		log.Println("[ERROR] Faild Bind JSON")
+		context.JSON(500, gin.H{"message": "Internal Server Error"})
+		return
+	}
+	context.JSON(200, gin.H{
+		"week": zeller.Zeller(calcArgs.Year, calcArgs.Month, calcArgs.Day),
+	})
 }
 
 // 課題3
