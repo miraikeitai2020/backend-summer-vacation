@@ -14,3 +14,10 @@ type Detail struct {
 	Date	string	`json:"date"`
 	Time	string	`json:"time"`
 }
+
+// TASK2 RESPONSE BODY
+type ZellerElements struct {
+	Year	int	`json:"year"`
+	Month	int	`json:"month"`
+	Day		int	`json:"day"`
+}
