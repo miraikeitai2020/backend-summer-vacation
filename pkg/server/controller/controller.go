@@ -8,6 +8,7 @@ import(
 
 	// import sample API packages
 	"github.com/miraikeitai2020/backend-summer-vacation/pkg/server/model"
+	"github.com/miraikeitai2020/backend-summer-vacation/pkg/stamp"
 )
 
 var(
@@ -46,6 +47,7 @@ func (ctrl *Controller)SayHello(context *gin.Context) {
 //   }
 // }
 func (ctrl *Controller)Task1(context *gin.Context) {
+	context.JSON(200, stamp.Now())
 }
 
 // 課題2
