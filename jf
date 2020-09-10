@@ -1,0 +1,80 @@
+[33mcommit 8eab967abe65480431f1c81d064c5860cea39957[m[33m ([m[1;36mHEAD -> [m[1;32mkadai[m[33m, [m[1;31morigin/kadai[m[33m)[m
+Author: daisukesakai100000 <daisuke.sakai.2p@stu.hosei.ac.jp>
+Date:   Thu Sep 10 20:35:56 2020 +0900
+
+    kadaiブランチにプッシュ
+
+[33mcommit ac990a0b4d8a0ba7dc71283fd600c49c64e04ccd[m
+Author: daisukesakai100000 <daisuke.sakai.2p@stu.hosei.ac.jp>
+Date:   Thu Sep 10 17:50:33 2020 +0900
+
+    zeller
+
+[33mcommit 73a2e164a1c9b2ed5cb0e1d4f714a816f64d8697[m
+Author: Shotaro Yamada <38803165+SaKu2110@users.noreply.github.com>
+Date:   Fri Aug 21 10:20:39 2020 +0900
+
+    Update README.md
+
+[33mcommit b2a9bda1922a3c6364e6579038904ce9d97238d8[m
+Merge: b2ee565 d52c0ec
+Author: Shotaro Yamada <38803165+SaKu2110@users.noreply.github.com>
+Date:   Sun Aug 16 13:19:43 2020 +0900
+
+    Merge pull request #1 from miraikeitai2020/serevr/initial_structure
+    
+    Serevr/initial structure
+
+[33mcommit d52c0eceda079c0c555506a7d1ae665f76b9a173[m
+Author: SaKu2110 <b1018106@fun.ac.jp>
+Date:   Sun Aug 16 13:18:38 2020 +0900
+
+    Update README
+
+[33mcommit e759d359c129f6e1898eb7e1383b1726a6ed5711[m
+Author: SaKu2110 <b1018106@fun.ac.jp>
+Date:   Sun Aug 16 13:18:22 2020 +0900
+
+    Fix typo
+
+[33mcommit 671ee7a93dbc45d89d347077c50532f182a40d1d[m
+Author: SaKu2110 <b1018106@fun.ac.jp>
+Date:   Sun Aug 16 12:54:29 2020 +0900
+
+    Add makefile
+
+[33mcommit 7227cbdbea21e04b931694d2c032ac804fc0efdc[m
+Author: SaKu2110 <b1018106@fun.ac.jp>
+Date:   Sun Aug 16 12:54:12 2020 +0900
+
+    Add Dockerfile
+
+[33mcommit 8d18a46d886c3191e210f2dd45905da3c42cabbd[m
+Author: SaKu2110 <b1018106@fun.ac.jp>
+Date:   Sun Aug 16 12:53:55 2020 +0900
+
+    Update gitignore
+
+[33mcommit dc020fb25554c9ca491f66966947fd6e0f26179a[m
+Author: SaKu2110 <b1018106@fun.ac.jp>
+Date:   Sun Aug 16 12:53:28 2020 +0900
+
+    Add go module
+
+[33mcommit a76652602070cbd2ad9eb1e64b8c7cf690f9c200[m
+Author: SaKu2110 <b1018106@fun.ac.jp>
+Date:   Sun Aug 16 12:52:58 2020 +0900
+
+    Add skeleton code
+
+[33mcommit b2ee565fd8175c130e4c8f2efe4b27aa8f7596c7[m
+Author: Takematsu <45535345+take-2405@users.noreply.github.com>
+Date:   Fri Aug 7 11:29:56 2020 +0900
+
+    Update README.md
+
+[33mcommit 9226e9f076a81ede6d45139dc0fef11e58eacebd[m
+Author: Takematsu <45535345+take-2405@users.noreply.github.com>
+Date:   Wed Aug 5 19:14:20 2020 +0900
+
+    Initial commit
